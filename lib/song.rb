@@ -35,7 +35,7 @@ end
   def self.genre_count
     hash ={}
     @@genres.each {|gen| 
-    hash[gen] += 1}
+    hash[gen] = 1}
     hash
   end
   
