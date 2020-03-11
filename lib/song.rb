@@ -47,12 +47,11 @@ end
   
   def self.artist_count
      hash ={}
-    @@genres.each {|gen| 
-    if !hash[gen]
-    hash[gen] = 0
+    @@artists.each {|a| 
+    if !hash[a]
+    hash[a] = 0
     end
-     hash[gen] +=1
-   
+     hash[a] +=1
     }
     hash
   end
