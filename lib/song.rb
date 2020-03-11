@@ -5,4 +5,8 @@ class Song
 @artist = artist
 @genre = genre
 end
+
+def name 
+@name
+end
 end
